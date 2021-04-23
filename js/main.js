@@ -27,7 +27,7 @@ let stopTimerButton = document.getElementById('stopTimer');
 // let audio = new Audio('../sound/countdown.mp3');
 timer.audio.loop = true;
 // let timeCounter = false;
-
+////////////////////////////////
 
 // function timerStart(pathToAudio, messageToUserAt0Timer) {
 //     return function(event) {
