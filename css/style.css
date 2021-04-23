@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    margin: 200px calc(50% - 600px) 0;
+}
+
+.calcDate,
+.timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lables {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calcDateName,
+.timerName {
+    color: aqua;
+    border: 1px solid;
+    border-color: white;
+    padding: 5px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.calcDateName:hover,
+.timerName:hover {
+    color: red;
+    border: 1px solid;
+    border-color: black;
+    padding: 5px;
+}
+
+.calcDateName:active,
+.timerName:active {
+    color: greenyellow;
+}
+
+.timer {
+    margin: 50px 0 0;
+}
+
+#timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-content: center; */
+}
+
+.inputTime {
+    margin: 20px 10px 10px;
+}
+
+#minutes,
+#seconds {
+    width: 40px;
+}
+
+button {
+    border-radius: 3px;
+    padding: 4px;
+}
