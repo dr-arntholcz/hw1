@@ -1,0 +1,35 @@
+{
+    "name": "hw1",
+    "version": "1.0.0",
+    "description": "hw",
+    "main": "./js/main.js",
+    "scripts": {
+        "dev": "webpack --mode=development",
+        "serve": "webpack serve --mode=development",
+        "build": "webpack --mode=production",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dr-arntholcz/hw1.git"
+    },
+    "author": "dr.Arntholcz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dr-arntholcz/hw1/issues"
+    },
+    "homepage": "https://github.com/dr-arntholcz/hw1#readme",
+    "devDependencies": {
+        "babel-loader": "^8.2.2",
+        "css-loader": "^5.2.4",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.3.1",
+        "mini-css-extract-plugin": "^1.5.0",
+        "webpack": "^5.36.1",
+        "webpack-cli": "^4.6.0",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "dependencies": {
+        "luxon": "^1.26.0"
+    }
+}
